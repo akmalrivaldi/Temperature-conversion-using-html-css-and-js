@@ -3,18 +3,23 @@ body {
   background-color: hsl(0, 0%, 89%);
 }
 
+/* .container {
+  justify-content: center;
+  align-items: center;
+} */
+
 h1 {
   color: hsl(199, 76%, 52%);
 }
 
 form {
-  background-color: hsl(0, 0%, 100%);
+  background-color: hsl(0, 0%, 90%);
   text-align: center;
   max-width: 350px;
   margin: auto;
   padding: 10px;
   border-radius: 10px;
-  box-shadow: 5px 5px 15px hsla(0, 0%, 0%, 0.3);
+  box-shadow: 5px 5px 15px hsla(0, 0%, 0%, 0.5);
 }
 
 #textBox {

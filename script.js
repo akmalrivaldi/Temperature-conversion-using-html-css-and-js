@@ -20,7 +20,7 @@ function convert() {
 }
 
 function hapus() {
-  document.getElementById("textBox").value = "";
+  document.getElementById("textBox").value = 0;
   toFahrenheit.checked = false;
   toCelcius.checked = false;
   document.getElementById("result").textContent = "";

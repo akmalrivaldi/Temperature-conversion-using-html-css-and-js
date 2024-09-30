@@ -7,25 +7,27 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <form action="">
-      <h1>Temperature Conversion</h1>
+    <div class="container">
+      <form action="">
+        <h1>Temperature Conversion</h1>
 
-      <input type="number" name="" id="textBox" value="0" /><br />
+        <input type="number" name="" id="textBox" value="0" /><br />
 
-      <input type="radio" name="unit" id="toFahrenheit" />
-      <label for="toFahrenheit">Celcius to Fahrenheit</label><br />
-      <input type="radio" name="unit" id="toCelcius" />
-      <label for="toCelcius">Fahrenheit to Celcius</label><br />
+        <input type="radio" name="unit" id="toFahrenheit" />
+        <label for="toFahrenheit">Celcius to Fahrenheit</label><br />
+        <input type="radio" name="unit" id="toCelcius" />
+        <label for="toCelcius">Fahrenheit to Celcius</label><br />
 
-      <button type="button" id="button1" name="konversi" onclick="convert()">
-        submit
-      </button>
-      <button type="button" id="button2" name="konversi" onclick="hapus()">
-        clear
-      </button>
+        <button type="button" id="button1" name="konversi" onclick="convert()">
+          submit
+        </button>
+        <button type="button" id="button2" name="konversi" onclick="hapus()">
+          clear
+        </button>
 
-      <p id="result"></p>
-    </form>
+        <p id="result"></p>
+      </form>
+    </div>
     <script src="script.js"></script>
     <script src="index.js"></script>
   </body>
